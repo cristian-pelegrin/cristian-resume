@@ -1,2 +1,1 @@
-# cristian-resume
-Cristian's resume
+# Cristian's resume :bowtie:
