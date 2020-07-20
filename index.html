@@ -3,8 +3,29 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <title>Cristian's Resume</title>
+  <!-- Icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./styles.css">
 </head>
-  <body style="width:100%; height:100%; margin:0;">
-    <iframe src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/cristian-pelegrin/cristian-resume/master/Cristian_Pelegrin_-_Senior_Software_Engineer.pdf&embedded=true" style="width:100%; height:100%;" frameborder="0"></iframe>
+  <body>
+    <div class="download-button">
+      <button
+        class="btn"
+        onclick="download_file(
+          'https://raw.githubusercontent.com/cristian-pelegrin/cristian-resume/master/Cristian_Pelegrin_-_Senior_Software_Engineer.pdf',
+          'Cristian_Pelegrin_-_Senior_Software_Engineer.pdf'
+        )"
+      >
+        <i class="fa fa-download"></i> Download me!
+      </button>
+    </div>
+    <div class="pdf-frame">
+      <iframe
+        src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/cristian-pelegrin/cristian-resume/master/Cristian_Pelegrin_-_Senior_Software_Engineer.pdf&embedded=true"
+        frameborder="0"
+      ></iframe>
+    </div>
   </body>
 </html>
+<script type="application/javascript" src="./helper.js"></script>
+
